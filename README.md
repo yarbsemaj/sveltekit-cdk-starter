@@ -35,4 +35,14 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Deploying
+
+To deploy your app set the follwoing envoronment variables
+* AWS_REGION
+* CDK_DEFAULT_ACCOUNT
+
+
+Then deploy using CDK
+```bash
+cdk deploy --all
+```
