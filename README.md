@@ -37,7 +37,7 @@ You can preview the production build with `npm run preview`.
 
 ## Deploying
 
-To deploy your app set the follwoing envoronment variables
+To deploy your app set the following environment variables
 * AWS_REGION
 * CDK_DEFAULT_ACCOUNT
 
